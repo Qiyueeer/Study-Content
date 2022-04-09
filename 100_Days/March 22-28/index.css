@@ -1,0 +1,93 @@
+body{
+  background-image:image()
+  background-size:100%;
+  background-repeat: no-repeat;
+}
+
+#login_frame{
+  width:400px;
+  height:250px;
+  padding:15px;
+
+  position:absolute;
+  left:50%;
+  top:50%;
+  margin-left: -200px;
+  margin-top: -200px;
+
+  background-color: rgb(240,233,233);
+
+  border-radius:10px;
+  text-align:center;
+
+}
+
+form p> *{
+  display: inline-block;
+  vertical-align:middle;
+}
+
+#image_logo{
+  margin-top:25px;
+}
+
+.label_input{
+  font-size:15px;
+
+
+width:65px;
+height:28px;
+line-height:28px;
+text-align: center;
+
+color:white;
+background-color:#3CD8FF;
+border-top-left-radius:5px;
+border-bottom-left-radius:5px;
+}
+
+
+.text_field{
+  width:278px;
+  height:28px;
+  border-top-left-radius:5px;
+  border-bottom-left-radius:5px;
+  border:0;
+}
+
+
+#btn_login{
+  font size:14px;
+
+
+width:120px;
+height:28px;
+line-height:28px;
+text-align: center;
+
+color:white;
+background-color:#3BD9FF;
+borderradius:6px;
+border:0;
+float:left;
+
+}
+
+#forger_pwd{
+  font size:12px;
+  color:white;
+  text-decoration: none;
+  position: relative;
+  float: right;
+  top:5px;
+
+}
+#forget_pwd:hover{
+  color:blue;
+  text-decoration: underline;
+}
+
+#login_control{
+  padding: 0 28px;
+  
+}

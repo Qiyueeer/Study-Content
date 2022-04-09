@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <link href="css/lab04.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="js/lab04.js"></script>
+</head>
+
+<body>
+    <table border="1px" cellspacing="0px">
+        <tr>
+            <td>
+                <p>Your choice</p>
+                <img src="img/2.png" id="img2">
+            </td>
+            <td>VS</td>
+            <td>
+                <p>Enemy's choice</p>
+                <img src="img/3.png" id="img3">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3">
+                <p id="result">PLEASE CHOLCE</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p>Your side's choice is</p>
+                <img src="img/2.png" id="img1">
+            </td>
+            <td>select</td>
+            <td>
+                <div class="div1">
+                    <select onchange="changeImg()" id="choiceSelect">
+                        <option value="2">Scissors</option>
+                        <option value="1">rock</option>
+                        <option value="3">paper</option>
+                    </select>
+                </div>
+                <div class="div1">
+                    <input type="button" value="It is time to Go" onclick="getChoice()">
+                </div>
+                <div class="div1">
+                    <input type="button" value="See the result" onclick="showresult()">
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3" id="finalresult">
+            <p>You play 0 times，Tied 0 times，win 0 times，lose 0 times</p></td>
+        </tr>
+    </table>
+
+</body>
+</html>

@@ -1,0 +1,12 @@
+body{
+    width: 200px;
+    height: 200px;
+
+}
+
+#ChangeColor{
+    height: 30px;
+    width: 30px;
+    outline:none;
+
+}
